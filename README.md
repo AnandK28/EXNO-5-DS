@@ -34,10 +34,10 @@ y_values=[2,4,1]
 plt.plot(x_values,y_values)
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
-plt.title('My first graph!')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/27662a6c-87e6-4347-b1d3-05f288a7f203)
+![image](https://github.com/user-attachments/assets/47587d70-60f8-4e5b-973f-8372af135ff1)
+
 
 ```
 import matplotlib.pyplot as plt
@@ -50,11 +50,11 @@ y2=[4,1,3]
 plt.plot(x2,y2,label='line2')
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
-plt.title('Two lines on same graph!')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/fdf5d4c7-4f8f-4224-84dc-462b161e4168)
+![image](https://github.com/user-attachments/assets/37d1c841-12e6-4b08-9431-227341dbd439)
+
 
 ```
 import matplotlib.pyplot as plt
@@ -65,10 +65,10 @@ plt.xlim(1,8)
 plt.ylim(1,8)
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
-plt.title('Some cool customizations!')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/8a457cdc-ddd2-4b39-923e-719134212c43)
+![image](https://github.com/user-attachments/assets/c9e2dfa5-bb3e-4a11-b6f3-9126b6ee1ad7)
+
 
 ```
 yield_apples=[0.895,0.91,0.919,0.926,0.929,0.931]
@@ -293,10 +293,10 @@ c2=['b','g']
 plt.bar(names, height, width=0.8, color=c1)
 plt.xlabel('x - axis')
 plt.ylabel('y - axis')
-plt.title('My bar chart!')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/df14f6a8-2b67-41b7-ad7f-264220f54103)
+![image](https://github.com/user-attachments/assets/8f1e82c6-7f01-411a-98a9-ef5fa086d9d9)
+
 
 ```
 x=[2,8,10]
@@ -320,10 +320,10 @@ bins=10
 plt.hist(ages,bins,range,color='green',histtype='bar',rwidth=0.8)
 plt.xlabel('age')
 plt.ylabel('No. of people')
-plt.title('My histogram')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/7dbfd7e7-d7e9-4722-bf0b-51c9fba8fb52)
+![image](https://github.com/user-attachments/assets/86073fcd-eb4a-4dc7-bb13-c40cc36ebe53)
+
 
 ```
 import matplotlib.pyplot as plt
